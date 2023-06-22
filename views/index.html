@@ -1,0 +1,28 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Message Board</title>
+
+  <!-- You should also serve the CSS and JS that the html files are requesting. These are located in the assets folder. Make sure the Content-Type header is getting properly set in the HTTP response. (Some methods from some frameworks infer the content type from the file extension and set the header automatically.) -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  //could add defer here
+</head>
+<body>
+  <script src="/js/index.js" ></script>
+  <div id="container">
+  <h1>Message Board</h1>
+
+  <div id="new-message">
+    <div class="row">
+      <input id="pass" placeholder="Password" type="password"></input>
+      <button id="save">Save</button>
+    <div>
+    <textarea id="desc" placeholder="New message here..."></textarea>
+  </div>
+
+    <ul id="message-list"></ul>
+  </div>
+</body>
+</html>
